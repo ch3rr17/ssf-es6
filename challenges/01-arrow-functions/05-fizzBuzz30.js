@@ -2,7 +2,8 @@
 //1 through 30 replacing numbers divisible by 3 with 'fizz', numbers divisible by 5 with 'buzz' and numbers divisible by 3 and 5 with
 //'fizzbuzz'
 
-let fizzBuzz30;
+// let fizzBuzz30;
+fizzBuzz30 = (num) => 
 
 
 

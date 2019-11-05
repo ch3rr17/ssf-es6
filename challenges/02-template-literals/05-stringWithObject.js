@@ -2,10 +2,13 @@
 //string that reads: The information you requested is ____.  Have a nice day!
 //Make use of interpolation to include the property from the object at the requested array index in place of the ____.
 
-const stringWithObject = (array, index, key) => {
+// const stringWithObject = (array, index, key) => {
     
-};
+// };
 
+const stringWithObject = (array, index, key) => {
+    return `The information you requested is ${array[index][key]}.  Have a nice day!`
+};
 
 
 
